@@ -1,0 +1,169 @@
+/* Import d'une police élégante */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400;600&display=swap');
+
+/* Style général */
+body {
+margin: 0;
+font-family: 'Montserrat', Arial, sans-serif;
+background: linear-gradient(180deg, #fdfbfb, #ebedee);
+color: #2c2c2c;
+}
+
+/* En-tête */
+header {
+background: linear-gradient(90deg, #6a85b6, #bac8e0);
+padding: 25px;
+color: white;
+}
+
+header h1 {
+margin: 0 0 10px 0;
+font-family: 'Playfair Display', serif;
+font-size: 2em;
+}
+
+/* Navigation */
+nav a {
+margin-right: 18px;
+text-decoration: none;
+color: white;
+font-weight: 500;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+/* Texte d’introduction */
+.intro {
+background: white;
+padding: 40px;
+max-width: 900px;
+margin: 40px auto;
+border-radius: 12px;
+box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.intro h2 {
+font-family: 'Playfair Display', serif;
+color: #6a85b6;
+}
+
+/* Galerie */
+.galerie {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+padding: 40px;
+}
+
+/* Carte œuvre */
+.oeuvre {
+width: 100%;
+max-width: 600px;
+height: 420px;
+background: white;
+border-radius: 15px;
+padding: 18px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+display: flex;
+flex-direction: column;
+transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.oeuvre:hover {
+transform: translateY(-6px);
+box-shadow: 0 15px 30px rgba(0,0,0,0.18);
+}
+
+.oeuvre img {
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+display: block;
+margin: auto;
+}
+
+/* Titres des œuvres */
+.oeuvre h3 {
+margin: 10px 0 5px 0;
+font-family: 'Playfair Display', serif;
+color: #6a85b6;
+}
+
+/* Footer */
+footer {
+text-align: center;
+padding: 20px;
+background: #6a85b6;
+color: white;
+font-size: 0.9em;
+}
+
+/* Section "hero" */
+.hero {
+position: relative;
+text-align: center;
+color: white;
+margin-bottom: 30px;
+}
+
+.hero-img {
+width: 100%;
+height: auto;
+filter: brightness(75%);
+}
+
+.hero-text {
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: 'Playfair Display', serif;
+font-size: 1.8em;
+padding: 10px;
+}
+
+/* À propos */
+.about-porcelaine {
+background: #ffffff;
+padding: 40px;
+margin: auto;
+max-width: 900px;
+border-radius: 10px;
+}
+
+.about-porcelaine .image-row {
+display: flex;
+gap: 15px;
+margin: 20px 0;
+}
+
+.about-porcelaine img {
+width: 48%;
+border-radius: 8px;
+}
+
+/* Section Histoire */
+.history {
+background: #fafafa;
+padding: 35px;
+margin: 40px auto;
+border-radius: 8px;
+max-width: 900px;
+}
+
+.wide-img {
+width: 100%;
+margin: 15px 0;
+border-radius: 8px;
+}
+
+.img-historique10 {
+  width: 150px !important;
+  height: auto !important;
+  max-width: none !important;
+  display: block;
+  margin: 20px auto;
+}
